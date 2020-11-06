@@ -137,3 +137,8 @@ footer > section article {
 footer > section article a {
     margin: .25rem 0;
 }
+
+.footer-list{
+    list-style: none;
+    display: none;
+}
