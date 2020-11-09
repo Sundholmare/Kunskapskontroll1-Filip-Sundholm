@@ -71,11 +71,11 @@ const footerLi = document.querySelectorAll('footer li');
 // Modifierar listan
 footerList.setAttribute('class', 'footer-list');
 
-footerLi[0].style.fontWeight = 'bold';
-footerLi[0].style.fontSize = '18px';
+footerLi[0].style.fontWeight = 'bold';// Ändrar font tyngden
+footerLi[0].style.fontSize = '18px';// ändrar font storleken
 
-for(i=0; i<footerLi.length; i++){
-    footerLi[i].style.border = '3px solid coral'
+for(i=0; i<footerLi.length; i++){// Sätter en border på alla element
+    footerLi[i].style.border = '2px solid coral'
 }
 
 
@@ -152,4 +152,3 @@ function createResetButton(){
 function showList(){
     footerList.style.display = 'block'
 };
-
