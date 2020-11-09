@@ -153,4 +153,3 @@ function showList(){
     footerList.style.display = 'block'
 };
 
-console.log('hej')
