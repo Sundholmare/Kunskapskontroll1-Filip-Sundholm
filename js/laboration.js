@@ -79,7 +79,7 @@ for(i=0; i<footerLi.length; i++){
 }
 
 
-// Lägga till event till art-1 och art-2 buttons
+// Lägga till event till art-1 och art-3 buttons
 const firstArticleButton = document.querySelector('.art-1 button');
 const thirdArticleButton = document.querySelector('.art-3 button');
 
