@@ -65,6 +65,7 @@ const list = footerSection.insertAdjacentHTML('afterend', `
 </ul>`)
 
 
+
 const footerList = document.querySelector('footer ul');
 const footerLi = document.querySelectorAll('footer li');
 // Modifierar listan
@@ -72,6 +73,10 @@ footerList.setAttribute('class', 'footer-list');
 
 footerLi[0].style.fontWeight = 'bold';
 footerLi[0].style.fontSize = '18px';
+
+for(i=0; i<footerLi.length; i++){
+    footerLi[i].style.border = '3px solid coral'
+}
 
 
 // Lägga till event till art-1 och art-2 buttons
@@ -95,12 +100,6 @@ thirdArticleButton.addEventListener('click', function(event){
 
     thirdArticleP.innerText = 'The Ash and Water hoodies are unable to be purchased at this moment, caused by pending lawsuits, but we can send you a 10cm*10cm image of the hoodies to be kept in your wallet. Thank you.';
 });
-
-
-
-
-
-
 
 
 
@@ -154,4 +153,4 @@ function showList(){
     footerList.style.display = 'block'
 };
 
-
+console.log('hej')
